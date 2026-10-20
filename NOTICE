@@ -1,0 +1,12 @@
+This project is derived from the ZCode official android-emulator plugin by Z.ai,
+which is licensed under the MIT License.
+
+Original plugin: android-emulator (Z.ai)
+Modifications in this repository:
+- MuMu 12 Arknights edition device backend (start/connect/reuse/stop).
+- MuMuManager integration and MuMu adb target selection.
+- MuMu uiautomator dump exit-code tolerance.
+- AVD-specific tool registrations removed; android_start_emulator starts MuMu.
+- Plugin metadata, skill, command, and documentation adapted for MuMu.
+
+See LICENSE for the full MIT license text and copyright notices.

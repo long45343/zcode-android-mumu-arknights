@@ -1,0 +1,49 @@
+{
+  "name": "android-mumu-arknights",
+  "version": "0.1.0",
+  "description": "Android development and automation on the MuMu 12 Arknights edition.",
+  "author": {
+    "name": "long45343"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "commands": "commands",
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "sdk_path": {
+      "type": "string",
+      "default": "",
+      "description": "Optional Android SDK root directory. When empty, falls back to ANDROID_HOME, ANDROID_SDK_ROOT, or common system paths."
+    },
+    "api_level": {
+      "type": "string",
+      "default": "35",
+      "description": "Android API level used when generating projects."
+    },
+    "build_tools_version": {
+      "type": "string",
+      "default": "35.0.0",
+      "description": "Android SDK build-tools version used in installation guidance."
+    },
+    "jdk_major": {
+      "type": "string",
+      "default": "17",
+      "description": "JDK major version used for preflight checks and installation guidance."
+    },
+    "mumu_path": {
+      "type": "string",
+      "default": "D:\\VMs\\YXArkNights-12.0",
+      "description": "MuMu 12 Arknights edition installation root."
+    },
+    "mumu_instance": {
+      "type": "string",
+      "default": "0",
+      "description": "MuMu Player instance index (0 for the first instance)."
+    },
+    "prefer_mumu": {
+      "type": "string",
+      "default": "true",
+      "description": "When true and no serial is given, start or reuse MuMu before any fallback device."
+    }
+  }
+}

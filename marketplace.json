@@ -1,0 +1,19 @@
+{
+  "name": "zcode-android-mumu-arknights",
+  "plugins": [
+    {
+      "name": "android-mumu-arknights",
+      "source": "./android-mumu-arknights",
+      "version": "0.1.0",
+      "description": "Android development and automation on the MuMu 12 Arknights edition.",
+      "displayName": "MuMu 方舟 Android 开发",
+      "displayName_i18n": {
+        "zh-CN": "MuMu 方舟 Android 开发"
+      },
+      "description_i18n": {
+        "zh-CN": "在 MuMu 12 方舟专版上构建、运行和调试 Android 应用"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}
